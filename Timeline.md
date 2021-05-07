@@ -5,6 +5,7 @@
 | Week-2 | Javascript & Js libraries |
 | Week-3 | Start with project implementation|
 | Week-4 | Final Project Presentation |
+
 **Weekends : Brainstorming Session & Project Submission**
 
 ### Week 1:
