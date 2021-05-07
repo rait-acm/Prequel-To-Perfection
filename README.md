@@ -53,9 +53,15 @@ JavaScript, often abbreviated as JS, is a programming language that conforms to 
   
 ## Intermediate Project Topics
 > E-commerce Website
+
 > Restaurant Website
+
 > Chat Application
+
 > Website Clone
+
 > Weather App
+
 > Blog Website
+
 > Movie Booking Website
