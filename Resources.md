@@ -52,6 +52,15 @@ JavaScript, often abbreviated as JS, is a programming language that conforms to 
 <li><a href="https://youtu.be/PkZNo7MFNFg">FreeCodeCamp</a></li>
 <li><a href="https://youtu.be/Qqx_wzMmFeA">Clever Programmer</a></li>
 
+### Javascript Libraries
+<li><a href="https://jquery.com/">Jquery</a></li> 	
+<li><a href="http://underscorejs.org/">Underscore js</a></li> 	
+<li><a href="https://leafletjs.com/">Leaflet js</a></li> 	
+<li><a href="https://alvarotrigo.com/fullPage/">Fullpage js</a></li>
+<li><a href="https://animejs.com/">anime js</a></li> 	
+
+<a href="https://getflywheel.com/layout/best-javascript-libraries-frameworks-2020/">View More</a> 	
+
 ### :beginner::beginner: Sample Project Topics
  1. Todo App
  2. Calculator
