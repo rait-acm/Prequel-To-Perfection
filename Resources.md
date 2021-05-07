@@ -23,6 +23,19 @@ Cascading Style Sheets is a style sheet language used for describing the present
 <li><a href="https://youtu.be/Edsxf_NBFrw">CodewithHarry</a></li> 	
 <li><a href="https://youtu.be/1Rs2ND1ryYc">FreeCodeCamp</a></li> 	
 
+### CSS Frameworks
+<li><a href="https://getbootstrap.com/">Bootstrap</a></li> 	
+<li><a href="https://tailwindcss.com/">Tailwind CSS</a></li> 	
+<li><a href="https://materializecss.com/">Materialize</a></li> 	
+<li><a href="https://semantic-ui.com/">Semantic UI</a></li>
+
+### CSS Libraries
+<li><a href="https://animate.style/">Animate css</a></li> 	
+<li><a href="https://www.csswand.dev/">CSS Wand</a></li> 	
+<li><a href="http://fontawesome.io/">Font Awesome</a></li> 	
+<li><a href="http://voxelcss.com/">Voxel CSS</a></li>
+
+
 ### :beginner::beginner: Sample Project Topics
  1. Survey Form
  2. Tribute Page
