@@ -1,5 +1,5 @@
-# :zap: Prequal To Perfection
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+# :zap: Prequel To Perfection
+An exciting and informative **4 week program** for both FEs and SEs.
 
 ## :large_blue_diamond: HTML
 The HyperText Markup Language, or **_HTML_** is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as **Cascading Style Sheets (CSS)** and scripting languages such as **JavaScript**.
