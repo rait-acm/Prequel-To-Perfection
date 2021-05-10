@@ -42,3 +42,25 @@ Django is a high-level Python web framework that enables rapid development of se
 <li><a href="https://youtu.be/F5mRW0jo-U4">FreeCodeCamp</a></li> 	
 <li><a href="https://youtu.be/JT80XhYJdBw">Clever Programmer</a></li> 	
 
+## SQL
+SQL is Structured Query Language, which is a computer language for storing, manipulating and retrieving data stored in a relational database. SQL is the standard language for Relational Database System.
+### :computer:Documentation	
+<li><a href="https://www.w3schools.com/sql/">W3schools</a></li>
+<li><a href="https://www.tutorialspoint.com/sql/index.htm">Tutorials Point</a></li>
+
+### :open_file_folder:Sources
+<li><a href="https://youtu.be/HXV3zeQKqGY">FreeCodeCamp</a></li> 	
+<li><a href="https://youtu.be/7S_tz1z_5bA">Programming With Mason</a></li> 	
+
+## :atom:Intermediate Project Topics
+> E-commerce Website
+
+> Chat Application
+
+> Chat App
+
+> Dood Ordering Website
+
+> Blog Website
+
+> Movie Booking Website
