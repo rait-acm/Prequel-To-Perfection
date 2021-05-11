@@ -59,7 +59,7 @@ SQL is Structured Query Language, which is a computer language for storing, mani
 
 > Chat App
 
-> Dood Ordering Website
+> Food Ordering Website
 
 > Blog Website
 
