@@ -35,13 +35,6 @@ Cascading Style Sheets is a style sheet language used for describing the present
 <li><a href="http://fontawesome.io/">Font Awesome</a></li> 	
 <li><a href="http://voxelcss.com/">Voxel CSS</a></li>
 
-
-### :beginner::beginner: Sample Project Topics
- 1. Survey Form
- 2. Tribute Page
- 3. Landing Page
- 4. Personal Portfolio
-
 ## :large_blue_diamond: Javascript
 JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
 ### :computer:Documentation	
@@ -60,19 +53,7 @@ JavaScript, often abbreviated as JS, is a programming language that conforms to 
 <li><a href="https://animejs.com/">anime js</a></li> 	
 
 <a href="https://getflywheel.com/layout/best-javascript-libraries-frameworks-2020/">View More</a> 	
-
-### :beginner::beginner: Sample Project Topics
- 1. Todo App
- 2. Calculator
- 3. Quiz App
- 4. Registration form with Authentication
- 5. Background color generator
- 6. Random Quote Generator
- 7. Tic Tac Toe game
- 8. Rock Paper Scissor game
- 9. Image Carousel
- 10. Memory Game
-  
+ 
 ## :atom:Intermediate Project Topics
 > E-commerce Website
 
@@ -81,8 +62,6 @@ JavaScript, often abbreviated as JS, is a programming language that conforms to 
 > Chat Application
 
 > Website Clone
-
-> Weather App
 
 > Blog Website
 
