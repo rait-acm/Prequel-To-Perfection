@@ -2,7 +2,7 @@
 An exciting and informative **4 week program** for both FEs and SEs.
 
 ## First Year (Task):
-Select on 
+ 
 ### :beginner::beginner: Sample Project Topics
  1. Survey Form
  2. Tribute Page
