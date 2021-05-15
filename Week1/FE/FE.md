@@ -12,4 +12,4 @@ An exciting and informative **4 week program** for both FEs and SEs.
 8. Click on pull request and then click on new pull request 
 9. Click on create pull request ![image](https://user-images.githubusercontent.com/83773945/118358339-f337a280-b59b-11eb-8162-317619988592.png)
 
-**NOTE : FOLDER NAME FORMAT >> "FIRSTNAME_LASTNAME"
+**NOTE : FOLDER NAME FORMAT >> "FIRSTNAME_LASTNAME"**
