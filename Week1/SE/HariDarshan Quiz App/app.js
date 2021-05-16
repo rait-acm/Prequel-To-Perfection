@@ -35,6 +35,7 @@ quizHtml = quizzes.map((quiz, index) => {
 document.body.style.backgroundColor = '#0a0a74';
 const renderOn = document.querySelector('.quiz');
 let currentQuestion = 0;
+let score = 0;
 renderOn.innerHTML = quizHtml[currentQuestion];
 const nextBtn = document.querySelector('.nextBtn');
 
@@ -45,6 +46,7 @@ function selectOption(e) {
 	if (e.target.value) {
 		if (currentAnswer === quizzes[currentQuestion].answer) {
 			console.log('correct');
+			score++;
 			e.target.style.backgroundColor = '#197519';
 			document.body.style.backgroundColor = '#197519';
 		} else {
@@ -60,6 +62,7 @@ function selectOption(e) {
 		let currentAnswer = Number(e.path[1].value);
 		if (currentAnswer === quizzes[currentQuestion].answer) {
 			console.log('correct');
+			score++;
 			e.path[1].style.backgroundColor = '#197519';
 			document.body.style.backgroundColor = '#197519';
 		} else {
@@ -83,6 +86,7 @@ function renderOptions(parentNode, index) {
 		let spn = document.createElement('span');
 		let anSpan = document.createElement('span');
 
+		btn.style.opacity = 0;
 		btn.classList.add('option');
 		btn.value = ind;
 		btn.addEventListener('click', selectOption);
@@ -98,6 +102,14 @@ function renderOptions(parentNode, index) {
 		aDiv.appendChild(btn);
 	});
 	parentNode.appendChild(aDiv);
+	gsap.to('.option', {
+		duration: 0.5,
+		delay: 0.4,
+		opacity: 1,
+		stagger: 0.3,
+		ease: 'none',
+		force3D: true,
+	});
 }
 
 let parenNode = document.querySelector('.quizWrapper');
@@ -106,11 +118,13 @@ renderOptions(parenNode, currentQuestion);
 nextBtn.addEventListener('click', () => {
 	if (currentQuestion >= quizHtml.length - 1) {
 		currentQuestion = 0;
+		alert(`You Scored ${score} out of ${quizzes.length} in quiz`);
+		score = 0;
 	} else {
 		currentQuestion++;
 	}
 	if (currentQuestion === quizHtml.length - 1) {
-		nextBtn.innerHTML = 'Restart';
+		nextBtn.innerHTML = 'Next';
 	} else {
 		nextBtn.innerHTML = 'Next';
 	}
