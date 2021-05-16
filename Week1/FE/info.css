@@ -1,0 +1,31 @@
+.body { margin: 60px;
+}
+.container-flud{
+    background-color:#EEEEEE;
+}
+.header {
+    text-align: center ;
+
+}
+.header{
+    color: teal;
+}
+
+.IMAGETEXT {
+   color: rgb(62, 7, 99);
+    background-color: white;
+}
+.MAIN {
+    max-width: 660PX;
+    margin: 0 auto;
+   text-align: center;
+}
+.ul {
+    text-align: center;
+}
+.li span{
+    font-size: bold;
+}
+.footer{
+    text-align:center;
+  }
