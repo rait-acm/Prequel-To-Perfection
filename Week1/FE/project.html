@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="shortcut icon" type="ico" href="favicon.ico">
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav class="head">
+            <img src="Surveyicon.png" height="80vh">
+            <div class="box1">
+                <u>
+                    Customer Service evaluation Form
+                </u>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="box2">
+            <h1>
+                Your Opinion is Valuable
+            </h1>
+        </div>
+        <div class="box3">
+            <h3>
+                Please take a minute to complete this questionnaire.<br>
+            </h3>
+            we expect our employees to serve the public courteously and efficiently.<br>
+            please take a few minutes to complete and let us know how we are doing.<br>
+            your responses will help us improve our service.<br>
+        </div>
+        <div class="box4">
+            <ol type="1">
+                <li class="list">
+                    rate today's visit:
+                    <table border="0" cellspacing="10px" cellpadding="0px">
+                        <tr>
+                            <th></th>
+                            <th>Outstanding</th>
+                            <th>Good</th>
+                            <th>Average</th>
+                            <th>Fair</th>
+                            <th>Poor</th>
+                        </tr>
+                        <tr>
+                            <td>Promptness</td>
+                            <td align="center">
+                                <form action="form.php">
+                                    <input type="radio" id="Outstanding" name="promptness" value="Outstanding">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Good" name="promptness" value="Good">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Average" name="promptness" value="Average">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Fair" name="promptness" value="Fair">
+                            </td>
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Poor" name="promptness" value="Poor">
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Courtesy</td>
+                            <td align="center">
+                                <form action="form.php">
+                                    <input type="radio" id="Outstanding" name="Courtesy" value="Outstanding">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Good" name="Courtesy" value="Good">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Average" name="Courtesy" value="Average">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Fair" name="Courtesy" value="Fair">
+                            </td>
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Poor" name="Courtesy" value="Poor">
+                                </form>
+                        </tr>
+                        <tr>
+                            <td>efficiency</td>
+                            <td align="center">
+                                <form action="form.php">
+                                    <input type="radio" id="Outstanding" name="efficiency" value="Outstanding">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Good" name="efficiency" value="Good">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Average" name="efficiency" value="Average">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Fair" name="efficiency" value="Fair">
+                            </td>
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Poor" name="efficiency" value="Poor">
+                                </form>
+                        </tr>
+                        <tr>
+                            <td>information received</td>
+                            <td align="center">
+                                <form action="form.php">
+                                    <input type="radio" id="Outstanding" name="information received"
+                                        value="Outstanding">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Good" name="information received" value="Good">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Average" name="information received" value="Average">
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Fair" name="information received" value="Fair">
+                            </td>
+                            </td>
+                            <td align="center">
+                                <input type="radio" id="Poor" name="information received" value="Poor">
+                                </form>
+                        </tr>
+                    </table>
+                </li>
+                <li class="list">Reasons for your visit:</li>
+                <form action="form.php">
+                    <input type="checkbox">
+                    <label>general information</label><br>
+                    <input type="checkbox">
+                    <label>general plan</label><br>
+                    <input type="checkbox">
+                    <label>zoning information</label><br>
+                    <input type="checkbox">
+                    <label>zoning clearance</label><br>
+                    <input type="checkbox">
+                    <label>film permit</label><br>
+                    <input type="checkbox">
+                    <label>merger</label><br>
+                    <input type="checkbox">
+                    <label>complaint</label><br>
+                    <input type="checkbox">
+                    <label>other</label><br>
+                </form>
+                </li>
+                <li class="list">
+                    if a staff member was especially helpful please let us know so we may show our appreciation.<br>
+                    <textarea name="explain" id="explain" cols="30" rows="10" placeholder="write in short"></textarea>
+                </li>
+                <li class="list">
+                    Suggestions for improvement:<br>
+                    <textarea name="explain" id="explain" cols="30" rows="10" placeholder="write in short"></textarea>
+                </li>
+                <div class="container">
+                    <h3>Overall</h3>
+                    How would you rate our service?
+                    <div class="tab">
+                        <table border="0" cellspacing="10px" cellpadding="0px">
+                            <tr>
+                                <th>Outstanding</th>
+                                <th>Good</th>
+                                <th>Average</th>
+                                <th>Fair</th>
+                                <th>Poor</th>
+                            </tr>
+                            <tr>
+                                <form action="form.php">
+                                    <td>
+                                        <input type="radio" id="Outstanding" name="box" value="Outstanding">
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="Good" name="box" value="Good">
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="Average" name="box" value="Average">
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="Fair" name="box" value="Fair">
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="Poor" name="box" value="Poor">
+                                    </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <li class="list">
+                    Today's date
+                    <form action="form.php">
+                        <input type="date" id="start" name="trip-start">
+                    </form><br>
+                    time of your visit
+                    <input type="time" id="appt" name="appt"><br>
+                    Do you want a manager to call you?<br>
+                    <input type="radio" id="yes" name="box" value="yes">
+                    <label>yes</label>
+                    <input type="radio" id="no" name="box" value="no">
+                    <label>no</label>
+                </li>
+                <li class="list">
+                    Optional information<br>
+                    Name<input type="text"><br>
+                    Address<input type="text"><br>
+                    City<input type="text">zip code<input type="text"><br>
+                    Phone<input type="text">
+                </li>
+            </ol>
+        </div>
+
+    </main>
+    <footer>
+
+        <p class="foot">&copy; all rights reserved</p>
+    </footer>
+</body>
+</html>
