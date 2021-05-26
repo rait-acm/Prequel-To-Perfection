@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+<body>
+<font size=10><H1><center>RAIT ACM</font><a href="https://rait.acm.org/"><img src="acm.png"height=90 width=200></a>
+<form>
+<center>
+<h1><b><span class="a"><FONT FACE="Tempus Sans ITC" size="10">|| Survey Form ||</span></b></font></h1>
+</center><b>
+<font face="Segoe Script" size="6"><pre>
+Enter full name: <input type="text" name="fname"><br>
+Enter branch:    <input type="text" name="branch"><br>
+Enter Roll no:   <input type="text" name="rollno"><br>
+Enter phone no:  <input type="text" name="phno"><br>
+Enter Email id : <input type="text" name="panno"><br>
+Any suggestions: <input type="text" name="sugg"><br>
+
+How was your Experience in RAIT ACM:<input type="text" name="experience"><br>
+Any Queries?: <input type="textbox" name="Enter your Question">
+ <a href="https://rait.acm.org/"><input type="button" value="Submit"></a>
+</form>
+<a href="https://rait.acm.org/"><img src="acm.png" align=center height=100 width=150"></a>
+</body>
+</html>

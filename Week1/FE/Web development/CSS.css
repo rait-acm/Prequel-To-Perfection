@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    width:100%;
+    height:75vh;
+    background-image:url("driving.jpg");
+    background-color: rgb(36, 125, 241);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    margin:0;
+    
+    background-size:stretch ;
+    position:relative;
+    
+}
+body {
+    overflow: hidden;
+  }
+.tabs{
+   
+    background-color:rgba(138, 121, 170, 0.5);
+    width:100%;
+    height:5%;
+    
+    padding-left:10%;
+    padding-right: 10%;
+    margin:0;
+    display:flex;
+    align-items:center;
+    
+
+    }
+
+.tab-itemh a:link,.tab-itemh a:visited{
+    text-decoration:none;
+    color:white;
+    
+
+}
+
+.tab-itemh{
+        
+        font-size:2.4em;
+        font-family: Berlin Sans FB,sans-serif;
+        font-weight: 800;
+        text-align: justify;
+        padding-right:35%;
+       
+       
+        /*margin-top:0.2em;*/
+    }
+
+.tab-itemh a:hover{
+    color:black;
+
+}
+
+.tab-item{
+    color:white;
+    font-size:1.2em;
+    font-family: Berlin Sans FB,sans-serif;
+    font-weight: 400;
+    margin:0;
+    border:1px solid none;
+    text-align: center;
+    /*margin:10px;*/
+    padding:2.5% 2% ;
+    flex:1;
+    
+    
+}
+.tab-item:hover{
+    background-color:rgba(83, 72, 102, 0.5);
+
+}
+
+
+.phrase{
+    color:white;
+    font-size:3em;
+    float:left;
+    margin-top:25vh ;
+    margin-left: 10%;
+}
+
+.msg1{
+    font-size: 2em;
+    font-family:Tahoma, sans-serif;
+    margin:unset;
+    text-align: left;
+}
+
+.msg2{
+    color:rgb(82, 81, 81);
+    text-align: justify;
+}
+
+.info{
+    background-color: white;
+    background-size:20% 70%;
+    
+    height: 60%;
+    opacity:1;
+    /**/
+    position:relative;
+
+    padding:1em 2%;
+    margin-top:10vh ;
+    margin-right: 10%;
+    margin-left: 70%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    align-items: justify;
+    
+    
+}
+
+.info-item input{
+    line-height: 2em;
+    width:90%;
+    border: 1% solid rgb(73, 71, 71);
+    margin:2%;
+    
+    margin-bottom: 5%;
+    flex:1;
+}
+.info-itemsub{
+    padding-top: 10%;
+    text-align: center;
+}
+.info-itemsub button{
+    background-color:rgba(209, 31, 69, 0.884);
+    font-family: Verdana, sans-serif;
+    border:none;
+    border-radius: 5px;
+    border-right:0.1em solid rgba(126, 19, 43, 0.884);
+    border-bottom:0.2em solid rgba(126, 19, 43, 0.884);
+    color:white;
+    text-align: center;
+    transition-duration: 0.4s;
+
+    padding: 0.5em 1.8em;
+     
+}
+
+.info-itemsub button:hover{
+    background-color:rgba(224, 104, 130, 0.945);
+    color:white;
+
+}
+.bottom{
+    position:absolute;
+    top:75vh;
+    margin-left:10%;
+   
+
+}
+.bottom1{
+    font-size: 2em;
+    font-family:Tahoma, sans-serif;
+    padding-bottom:2%;
+    padding-top: 5%;
+    margin:0;
+    
+    text-align: left;
+}
+.bottom2{
+    padding:1%;
+    color:rgb(48, 46, 46);
+    text-align: justify;
+}
+.calc{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1;
+}
+
+.calc input{
+    line-height: 2em;
+    width:90%;
+    border: 1% solid rgb(73, 71, 71);
+    margin:2%;
+    
+    margin-bottom: 5%;
+    flex:1;
+
+}
+.calc button{
+    background-color:rgba(209, 31, 69, 0.884);
+    font-family: Verdana, sans-serif;
+    border:none;
+
+    border-radius: 5px;
+    border-right:0.1em solid rgba(126, 19, 43, 0.884);
+    border-bottom:0.2em solid rgba(126, 19, 43, 0.884);
+    color:white;
+    text-align: center;
+    transition-duration: 0.4s;
+
+    padding: 0em 1.8em;
+     
+}
+
+.calc button:hover{
+    background-color:rgba(224, 104, 130, 0.945);
+    color:white;
+
+}
+/*.bottom{
+    background-color:  rgb(48, 88, 139);
+    margin-top: 68vh;
+    margin-left: -1vw;
+   
+    background-size:100vw 24vh ;
+    height:24vh;
+    width:100vw;
+    position: relative;
+    clear:both;
+}*/

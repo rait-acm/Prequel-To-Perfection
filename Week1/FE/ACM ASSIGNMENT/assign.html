@@ -1,0 +1,98 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <fieldset>
+        <img src="http://www.dypatil.edu/mumbai/rait/wp-content/uploads/2020/03/Untitled1.png" width="100" height="100">
+    <h1 id="title">ACM SURVEY FORM</h1>
+
+    <h3 id="description">Fill the details down below</h3>
+
+    <form id="survey-form" autocomplete="on">
+        <fieldset>
+        <legend>Personal Information *</legend><br>
+        <label for="fname" id="fname-label"> First Name</label>
+        <input id="fname" type="text" name="fname" placeholder="ABC" required autofocus></input><br>
+        <br>
+        <label for="lname" id="lname-label">Last Name</label>
+        <input id="lname" type="text" name="lname" placeholder="XYZ" required></input><br>
+        <br>
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" name="email" placeholder="abc@gmail.com" required></input><br>
+        <br>
+        <label for="number" id="mobilenumber-label">Mobile Number</label>
+        <input id="number" type="number" name="number" placeholder="XXXXXX6666" required></input><br>
+        <br>
+
+        <label for="number" id="age-label">Age</label>
+        <input id="number" type="number" name="number" placeholder="18" min="0" max="100" required></input><br>
+        <br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required></input>
+        <label for="radio">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female" required></input>
+        <label for="radio">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other" required></input>
+        <label for="radio">Other</label><br>
+        </fieldset>
+        <br>
+    <fieldset>
+        <legend>Required Information *</legend><br>
+        <label for="dropdown" id="year-label">Select Academic Year:</label>
+        <select id="dropdown" required>
+
+            <option value="FE">FE</option>
+            <option value="SE">SE</option>
+            <option value="TE">TE</option>
+            <option value="Not_from_RAIT">Not from RAIT</option>
+
+        </select>
+        <br>
+        <br>
+
+        <label for="branch">Branch: </label><br>
+
+        <input type="checkbox" id="cs" name="branch" value="cs" ></input>
+        <label for="checkbox">Computer Science</label><br>
+
+        <input type="checkbox" id="it" name="branch" value="it" ></input>
+        <label for="checkbox">Information Technology</label><br>
+
+        <input type="checkbox" id="electronics" name="branch" value="electronics" ></input>
+        <label for="checkbox">Electronics Department</label><br>
+
+        <input type="checkbox" id="electrical" name="branch" value="electronics" ></input>
+        <label for="checkbox">Electrical Department</label><br>
+
+        <input type="checkbox" id="instrumentation" name="branch" value="instrumentation" ></input>
+        <label for="checkbox">Instrumentation Department</label><br>
+        <br>
+        
+        <label for="exp">How was your experience in ACM Workshop ?</label>
+        <input type="radio" id="experience" name="exp" value="experience" required></input>
+        <label for="radio">1</label>
+        <input type="radio" id="experience" name="exp" value="experience" required></input>
+        <label for="radio">2</label>
+        <input type="radio" id="experience" name="exp" value="experience" required></input>
+        <label type="radio">3</label>
+        <input type="radio" id="experience" name="exp" value="experience" required></input>
+        <label type="radio">4</label>
+        <input type="radio" id="experience" name="exp" value="experience" required></input>
+        <label type="radio">5</label><br>
+        <br>
+        <label for="message">Suggestions for more topics to be covered:</label><br>
+        <textarea name="message" rows="10" cols="40" placeholder="Description"></textarea><br>
+    </fieldset>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit" onclick="">
+    </fieldset>
+    </form>
+</body>
+</html>
