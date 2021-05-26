@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <body>
+   
+    <head>
+      <title>Random Background Color Generator</title>
+      <style>
+        body{
+          background-color: wheat;
+        }
+        h1{
+          text-decoration: underline;
+          color: teal;
+         font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        p{
+          font-family: cursive;
+          color: rgb(88, 39, 88);
+        }
+      </style>
+    </head>
+    <script>
+    function random_bg_color() {
+      var r = Math.floor(Math.random() * 256);
+      var g = Math.floor(Math.random() * 256);
+      var b = Math.floor(Math.random() * 256);
+      var bgColor = "rgb(" + r + "," + g + "," + b + ")";
+      console.log(bgColor);
+      document.body.style.background = bgColor;
+    }
+    </script>
+     <h1>Background Color Generator</h1>
+     <p>Click the below button to generate random background color!</p>
+    <input type="button" onclick="random_bg_color()" value="Generate">
+        
+    </body>
+  </html>
