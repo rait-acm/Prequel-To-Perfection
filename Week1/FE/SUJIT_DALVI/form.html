@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey Form (task_week1)</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header class="header">
+        <h1>Survey for covid-19 Vaccination</form></h1>
+
+    </header>
+    <main>
+        <div>This form is made to study the ratio of people how have got vaccinated for COVID-19 in India. Also we can study various espect like side effects and avaibility of vaccine. Please fill the form correctly.</div>
+    <div class="form">
+    <form action="form.php"> 
+        <h1>Survey Form for COVID-19 Vaccination</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <span> Name:</span>     
+        <input type="text" placeholder="Fist name " required>
+        <input type="text" placeholder="Middle name">
+        <input type="text" placeholder="Last name" required>
+
+<br><hr>
+        
+        <span> Gender:</span>
+        <label for="genderM">
+            <input type="radio" value="male" name="gender" id="genderM">Male
+        </label>
+
+        <label for="genderF">
+            <input type="radio" value="female" name="gender" id="genderF">Female
+        </label>
+
+        <label for="genderT">
+            <input type="radio" value="other" name="gender" id="genderT">Other
+        </label>
+
+
+<br><hr>
+        <span>Blood Group:</span>     
+                <input type="text" placeholder="enter your blood group">
+                <select name="Rh factor" id="RhF">
+                    <option value="+ve">+ve</option>
+                    <option value="-ve">-ve</option>
+                </select>
+
+<br><hr>
+        
+        <span> Residential address:</span>
+        <input type="text" placeholder="enter your address  ">
+
+<br><hr>
+
+       <span> Date Of Birth:</span> 
+       <input type="date" placeholder="enter your birth date">
+
+<br><hr>
+
+        <span> Age range:</span>
+        <label for="age_slot_1">
+            <input type="radio" value="18-44" name="age" id="age_slot_1">18-44
+        </label>
+
+        <label for="age_slot_2">
+            <input type="radio" value="45-60" name="age" id="age_slot_2">45-60
+        </label>
+        <label for="age_slot_3">
+            <input type="radio" value="60+" name="age" id="age_slot_3">60+
+        </label>
+
+    </fieldset>
+
+<br>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <span>Mobile Number:</span>
+            <input type="text" name="Mnumber" minlength="1" maxlength="10" required>
+            <input type="button" value="Verify">
+            <br><hr>
+        
+            <label for="email_id">Enter Your Email: </label>
+            <input type="email" id="email_id" >
+
+            <input type="button" value="verify">
+    
+      
+        </fieldset>
+<br>
+
+    <fieldset>
+        <legend>Vaccination Details</legend>
+
+        <span>Have you been vaccinated?</span>
+        <input type="radio" value="yes " name="y/n">Yes
+        <input type="radio" value="no" name="y/n">No
+
+<br><hr>
+
+        <label for="covaxin">Which  vaccine have you taken:
+            <input type="radio" value="covaxin" name="vaccine" id="covaxin">Covaxin
+        </label>
+        
+        <label for="covishield">
+            <input type="radio" value="covishield" name="vaccine" id="covishield">Covishield
+        </labe>
+        
+        <label for="sputnik">
+            <input type="radio" value="sputnik" name="vaccine" id="sputnik">Sputnik
+        </labe>
+
+<br><hr>
+
+        <label for="dose">Completed how many dose(s)? <br>
+            <input type="radio" value="dose 1" name="dose" id="dose">Dose 1
+        </label>
+
+        <label for="dose1">
+            <input type="radio" value="both the doses" name="dose" id="dose1">Both the doses
+        </label>
+        
+        <label for="dose2">
+            <input type="radio" value="dose 2" name="dose" id="dose2">Sputnik does not require 2 doses
+        </label>
+<br><hr>
+            <span>Any side effect after vaccination</span>
+            <br>
+                <input type="checkbox" id="side_effects">
+                <label for="side_effects">Fever</label>
+            <br>
+                <input type="checkbox" id="side_effects">
+                <label for="side_effects">Pain at the injection site</label>
+            <br>
+                <input type="checkbox" id="side_effects">
+                <label for="side_effects">Fatigue</label>
+            <br>
+                <input type="checkbox" id="side_effects">
+                <label for="side_effects">Headache</label>
+            <br>
+                <input type="checkbox" id="side_effects">
+                <label for="side_effects">Chills</label>
+            <br>
+                <input type="checkbox" id="side_effects">
+                <label for="side_effects">Diarrhoea</label>
+            <br>
+                <input type="text" placeholder="enter if any other" maxlength="10">
+
+    </fieldset>
+
+<br>
+
+    <fieldset>
+        <legend>Medical History</legend>
+
+
+        <span>Any disease</span>
+<br>
+        <input type="checkbox" id="problem" >
+        <label for=" problem">Diabetes</label>
+<br>
+        <input type="checkbox" id="problem1" >
+        <label for=" problem1">High blood pressure</label>
+<br>
+        <input type="checkbox" id="problem2" >
+        <label for=" problem2">Low blood pressure</label>
+<br>
+        <input type="checkbox" id="problem3" >
+        <label for=" problem3">Asthama</label>
+<br>
+        <input type="checkbox" id="problem4" >
+        <label for=" problem4">Thyaroid</label>
+<br>
+        <input type="text" placeholder="if any other" >
+<br><hr>
+        <span>Any genetic disorder:</span>
+        <input type="text" placeholder="any genetic disorder" maxlength="50">
+
+    </fieldset>
+
+        <label for="comment">Please share your vaccination experience:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+<br><br>
+
+        <input type="button" value="submit" class="submit" >
+
+       </form>
+    </div>
+</main>
+
+<footer>To know more about vaccination in India and to register for COVID-19 vaccination
+    <a href="https://www.cowin.gov.in/home" target="_blank">click here</a>
+</footer>
+
+</body>
+</html>

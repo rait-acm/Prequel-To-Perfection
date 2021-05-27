@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    justify-content: space-between;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+    padding-left: 8px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    
+}
+header ul li a{
+    display: inline-block;
+    color: rgb(20, 88, 66);
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+ 
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBx{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBx h2{
+    color: rgb(155, 35, 35);
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-family: sans-serif, sans-serif;
+    text-decoration:none ;
+}
+
+.content .textBx h2 span{
+    color: rgb(194, 197, 33);
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: fantasy;
+}
+
+.content .textBx p{
+    color: rgb(125, 175, 118);
+    font-size: 0.5cm;
+    font-family: sans-serif;
+    font-style: italic;
+    
+}
+
+.content .textBx a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(195, 205, 250);
+    color: rgb(112, 9, 9);
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.content .img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: right 23px; ;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+
+.thumb{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: invert(1);
+
+}
+.thumb li{
+    list-style: none;
+    margin-bottom: 21px;
+    transform: scale(0.7);
+
+}
+
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(182, 31, 31);
+    clip-path: circle(550px at right 800px);
+
+}
+.circle1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("nikegreen.jpg");
+    clip-path: circle(280px at left 800px);
+}
+
+
+.video{
+    position: relative;
+    border-top-style: solid;
+    border-color: cadetblue;
+    align-items: center;
+    background-color: rgb(224, 189, 181);
+}
+.cp-text
+    { color: rgba(0,0,0,.7); 
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    font-size: 0.5cm;
+}
+
+
+
+

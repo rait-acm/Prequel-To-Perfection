@@ -1,0 +1,27 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(145, 195, 245);
+    }   
+h1  {
+    text-align: center;
+    }
+
+ h3 {
+     text-align: center;
+    }
+ div{
+     text-align: center;
+    }
+ form{
+     background-color: rgb(235, 235, 235);
+     padding: 2px;
+     line-height: 3.5;
+     margin: auto;
+    }
+.submit-button{
+    width: 40%;
+    background-color: #58e6b6;
+    
+}    

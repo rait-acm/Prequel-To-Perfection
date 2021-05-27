@@ -1,0 +1,98 @@
+body {
+  background-color: #ec3d30;
+  color: #160808;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 15px;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content { background-color: #f0b5a6; }
+ 
+#intro-img {
+  background-image: url(/shadi.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+
+.text-white { color: rgba(245, 248, 242, 0.925); }
+
+.page-header-container { text-align: center; }
+
+.page-header {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 2.1 rem;
+  font-weight: 800;
+}
+
+.section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.section-small {
+  max-width: 490px;
+  margin-left: 90;
+  margin-right: 230;
+  padding-top: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.mb-0 { margin-bottom: 0; }
+img { max-width: 100%; }
+figure { margin: 0; }
+figcaption { text-align: center; }
+
+figcaption span {
+  display: block;
+  color: #757575;
+  font-size: 18px;
+}
+
+hr {
+  width: 70%;
+  border: 0.5px solid rgb(24, 18, 18);
+}
+
+
+.contact-link {
+  color: #d8d7d7;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a { transition: all 0.3s ease; }
+.contact-link:hover { color: #000000; }
+
+.footer-text {
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link:hover { color: #c5ced8; } 
+ 
+
+
