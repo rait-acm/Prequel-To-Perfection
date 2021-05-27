@@ -1,0 +1,20 @@
+body {
+	font: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-image: url(Img/bgimage.jpg);
+	color: white;
+}
+.container{
+	display: inline-block;
+	border: 0px;
+	margin: auto;
+	padding: 0px;
+	width :100%;  
+	text-align: center;
+	background: #b3e7f4;
+	color: #152238;
+}
+.form{
+	display: inline-grid;
+}
