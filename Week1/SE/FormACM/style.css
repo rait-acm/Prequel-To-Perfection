@@ -1,0 +1,33 @@
+.container{
+	max-width: 80%;
+	background-color: rgb(198,153, 251);
+	margin: auto;
+	padding: 24px;
+}
+
+.container h1, p{
+	text-align: center; 
+}
+
+input, textarea{
+	display: block;
+	font-size: 18px;
+	width: 50%;
+	margin: 11px 0px;
+	padding: 8px;	
+}
+
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.btn{
+	font-size: 20px;
+	color: white;
+	background: black;
+	text-color: white;
+	padding: 8px 12px;
+}
