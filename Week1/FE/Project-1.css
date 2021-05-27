@@ -1,0 +1,14 @@
+body {
+    background-color:rgb(11, 16, 26);
+    color: #eee8e8;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 25px;
+  }
+  h1{
+  color: rgba(255, 255, 255, 0.788);
+  }
+  
+  p{
+    color: rgb(231, 13, 13);
+  }

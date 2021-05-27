@@ -1,0 +1,25 @@
+.page-body{
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : skyblue;
+    width : 60%;
+    height : 80% ;
+    padding-left : 50px;
+    padding-right : 30px;
+    letter-spacing:1px;
+    text-align:center;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+#hd{
+    font-size: 25px;
+}
+
+#subhd{
+    background: white;
+    padding : 50px;
+    font-size: 20px;   
+    border-radius: 25px;
+}

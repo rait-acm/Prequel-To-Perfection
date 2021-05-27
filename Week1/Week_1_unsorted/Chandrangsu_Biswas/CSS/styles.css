@@ -1,0 +1,83 @@
+body {
+  background-color: #e4f9ff;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 2px;
+  width: 5%;
+}
+
+h1 {
+  color: #12cad6;
+  align-content: center;
+}
+
+h2 {
+  color: #12cad6;
+}
+
+h3 {
+  color: #12cad6;
+}
+
+
+
+/************************Class Selector*********************/
+.dp {
+  background: #a6dcef;
+}
+
+.border {
+  border-radius: 100%;
+}
+
+.image {
+  display: ;
+  margin-left: 590px;
+
+}
+
+.name {
+  margin-left: 600px
+}
+
+.intro {
+  display: ;
+  margin-left: 400px;
+}
+
+.skills {
+  background-color: #abf0e9;
+}
+
+.inner-1 {
+  margin-left: 600px;
+}
+
+.work {
+  background-color: #abf0e9;
+}
+
+.inner-2 {
+  margin-left: 600px;
+}
+
+.education {
+  background-color: #abf0e9;
+}
+
+.inner-3 {
+  margin-left: 600px;
+}
+
+.hobbies {
+  background-color: #abf0e9;
+}
+
+.inner-4 {
+  margin-left: 600px;
+}
