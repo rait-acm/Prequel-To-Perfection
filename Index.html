@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Form Validation</title>
+    <style>
+      body {
+        padding: 10px 60px;
+      }
+      .formdesign {
+        font-size: 30px;
+      }
+      .formdesign input {
+        width: 50%;
+        padding: 12px 20px;
+        border: 1.5px solid rgb(86, 6, 88);
+        margin: 14px;
+        border-radius: 4x;
+        font-size: 20px;
+      }
+      .formerror {
+        color: red;
+      }
+      .but {
+        border-radius: 16x;
+        width: 10%;
+        height: 50px;
+        font-size: 25px;
+        margin: 22px 20px;
+        font-size: 30px;
+        border: 1.5px solid rgb(0, 0, 0);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="#" onsubmit="return validation()">
+      <br />
+      <div class="formdesign" id="name">
+        Name:<br /><input type="text" name="fname">
+        <b><span  class="formerror"></span></b>
+      </div>
+      <div class="formdesign" id="email">
+        Email:<br /><input type="Email" name="fEmail">
+        <b><span class="formerror"></span></b>
+      </div>
+      <div class="formdesign" id="phone">
+        Phone:<br /><input type=" Phone" name="fPhone">
+        <b><span class="formerror"></span></b>
+      </div>
+      <div class="formdesign" id="password">
+        Password:<br /><input type="Password" name="fPass">
+        <b><span class="formerror"></span></b>
+      </div>
+      <div class="formdesign" id="Conform Password">
+        Conform Password:<br/><input type="Password"name="fcpass"/>
+        <b><span class="formerror"></span></b>
+      </div>
+      <input class="but" type="submit" value="Submit" >
+    </form>
+  </body>
+
+  <script type="text/javascript">
+
+  function validation(){
+
+    var user = document.getElementsById('name').value;
+    var user = document.getElementsById('email').value;
+    var user = document.getElementsById('phone').value;
+    var user = document.getElementsById('password').value;
+    var user = document.getElementsById('Conform Password').value;
+
+
+    
+    if(name == ""){
+      document.getElementById('name').inner.HTML="*Please fill the name ";
+      return false;
+    }
+    if(name == ""){
+      document.getElementById('email').inner.HTML="*Please fill the email ";
+      return false;
+    }
+    if(name == ""){
+      document.getElementById('phone').inner.HTML="*Please fill the phone";
+      return false;
+    }
+    if(name == ""){
+      document.getElementById('password').inner.HTML="*Please fill the password ";
+      return false;
+    }
+    if(name == ""){
+      document.getElementById('Conform Password').inner.HTML="*Please fill theConform Password ";
+      return false;
+    }
+  }
+
+   
+
+
+  </script>
+</html>
