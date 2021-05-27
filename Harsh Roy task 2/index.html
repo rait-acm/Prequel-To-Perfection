@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Calculator</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="main">
+ <form name="myForm">
+  <input type="text" name="textview" class="textview" >
+ </form>
+ <table>
+  <tr>
+    <td><input class="button symbol gray" type="button" onclick="back()" value="back"/></td>
+   <td><input class="button symbol blue" type="button" onclick="insertOp('/')" value="÷"/ ></td>
+  </tr>
+  <tr>
+   <td><input class="button number gray" type="button" onclick="insertNum(7)" value="7"/></td>
+   <td><input class="button number gray" type="button" onclick="insertNum(8)" value="8"/></td>
+   <td><input class="button number gray" type="button" onclick="insertNum(9)" value="9"/></td>
+   <td><input class="button symbol blue" type="button" onclick="insertOp('*')" value="*"/></td>
+  </tr>
+  <tr>
+   <td><input class="button number gray" type="button" onclick="insertNum(4)" value="4"/></td>
+   <td><input class="button number gray" type="button" onclick="insertNum(5)" value="5"/></td>
+   <td><input class="button number gray" type="button" onclick="insertNum(6)" value="6"/></td>
+   <td><input class="button symbol blue" type="button" onclick="insertOp('-')" value="-"/></td>
+  </tr>
+  <tr>
+   <td><input class="button number gray" type="button" onclick="insertNum(1)" value="1"/></td>
+   <td><input class="button number gray" type="button" onclick="insertNum(2)" value="2"/></td>
+   <td><input class="button number gray" type="button" onclick="insertNum(3)" value="3"/></td>
+   <td><input class="button symbol blue" type="button" onclick="insertOp('+')" value="+"/></td>
+  </tr>  
+  <tr>
+   <td><input class="button symbol gray" type="button" onclick="clear_scr()" value="C"/></td>
+   <td><input class="button number gray" type="button" onclick="insertNum(0)" value="0"/></td>
+   <td><input class="button symbol gray" type="button" onclick="insertDec()" value="."/></td>
+   <td><input class="button symbol blue" type="button" onclick="equalTo()" value="="/></td>
+  </tr>  
+ </table>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
