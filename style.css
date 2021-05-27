@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: rgb(21, 138, 184);
+    background-size: cover;
+}
+
+@keyframes flashing{
+    0%{color:rgb(245, 242, 61);}
+    100%{color:rgb(98, 168, 51);}
+}
+
+#title{
+    margin-top: 1.5em;
+    color:rgb(245, 242, 61);
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    animation-name: flashing;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+
+.grid-container{
+    background-color: teal;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:0.5em;
+    margin-top: 1em;
+    margin-left:35vw;
+    margin-right: 35vw;
+    width: fit-content;
+    justify-content:space-evenly;
+    align-content: space-evenly;
+
+}
+
+#b1, #b2, #b3, #b4, #b5, 
+    #b6, #b7, #b8, #b9 {
+    background-color: white;
+    border: 0.3em solid rgb(160, 155, 155);
+    width: 3em;
+    height: 3em;
+    font-size:2.5rem;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 8px;
+}
+.result{
+    padding: 25px 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    background: #fff;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  .result.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .result .won-text{
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  .result .won-text p{
+    font-weight: 600;
+    margin: 0 5px;
+  }
+  .result .btnr{
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btnr button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: none;
+    background: #56baed;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  #print{
+    margin-top:-2em;
+    text-align:center;
+    font-size:3em;
+    color:darkorange
+  }
