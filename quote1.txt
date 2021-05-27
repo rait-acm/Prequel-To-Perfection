@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+  background-image: url("inspi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header 
+{
+  padding: 1em;
+  background-color: grey;
+  margin-top: 1em;
+  text-align: center;
+}
+.quote
+ {
+  font-size: 3em
+}
+
+.btn-large 
+{
+    margin: 0.5em;
+  }
+
+.new-quote-button 
+{
+  background-color: silver;
+}
+.card
+ {
+  text-align: center;
+  width: 45em;
+}
+
+</style>
+<center>
+  <div class="container">
+        <div class="row flex-top flex-center">
+          <header class="border shadow">
+           <h1>Random Quote Generator</h1>
+          </header>
+        </div>
+         
+       <div class="row flex-center">
+         <button id="button" class="btn-large new-quote-button" onClick="getQuote()">New Quote</button>
+      
+        </div>
+         
+        <div class="row flex-center">
+         <main class="card">
+          <p class="quote card-body center" id="newQuoteSection">...</p>
+         </main>
+        </div>
+             
+        <div class="row flex-bottom flex-center">
+         <footer>
+        
+         </footer>
+        </div>
+           
+    </div>
+<script>
+
+let quotes = ["The purpose of our lives is to be happy. — Dalai Lama","Life is what happens when you’re busy making other plans-John Lennon","Get busy living or get busy dying-Stephen King","You only live once, but if you do it right, once is enough-Mae West","Many of life’s failures are people who did not realize how close they were to success when they gave up-Thomas Edison","If you want to live a happy life, tie it to a goal, not to people or things.-Albert Einstein","Money and success don’t change people; they merely amplify what is already there-Will Smith","Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.-Steve Jobs","In order to write about life first you must live it-Ernest Hemingway","Life would be tragic if it weren’t funny.-Stephen Hawking"]
+
+function getQuote() {
+  var randomNumber = Math.floor(Math.random() * quotes.length);
+  document.getElementById('newQuoteSection').innerHTML = quotes[randomNumber];
+}
+
+
+</script>
+
+</body>
+
+</html>
