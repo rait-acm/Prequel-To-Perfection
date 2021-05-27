@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<head>
+
+     <title>ACM</title>
+     <link rel="stylesheet" href="style.css" rel="stylesheet" />
+     <style>
+          body {
+               background-color: #eb9791;
+               color: #1f0d0d;
+               font-family: "Open Sans", Arial, Helvetica, sans-serif;
+               font-size: 17px;
+               padding: 15px;
+          }
+
+
+          .container {
+               max-width: 900px;
+               margin-left: auto;
+               margin-right: auto;
+
+
+          }
+
+          .main-content {
+               background-color: #6db2ce;
+          }
+
+
+
+
+          .text-white {
+               color: rgba(0, 0, 0, 0.925);
+          }
+
+          .page-header-container {
+               text-align: center;
+          }
+
+          .text-header-container {
+               display: inline-block;
+               vertical-align: baseline;
+               margin-top: 20px;
+               margin-bottom: 35px;
+               font-size: 2.1 rem;
+               font-weight: 800;
+          }
+
+
+          p {
+               font-size: 1rem;
+               line-height: 1.7;
+          }
+
+          .mb-0 {
+               margin-bottom: 0;
+          }
+
+          img {
+               max-width: 100%;
+          }
+
+          figure {
+               margin: 0;
+          }
+
+          figcaption {
+               text-align: center;
+          }
+
+          .section-small {
+               max-width: 490px;
+               margin-left: 350px;
+               margin-right: auto;
+               padding-top: 0;
+          }
+
+
+          .contact-link {
+               color: #d8d7d7;
+               font-weight: 600;
+               text-decoration: none;
+          }
+
+          a {
+               transition: all 0.3s ease;
+          }
+
+          .contact-link:hover {
+               color: #000000;
+          }
+     </style>
+</head>
+
+<body>
+
+     <div class="container">
+          <div class="text-white page-header-container">
+               <i>
+                    <h1 class="page-header">ACM SURVEY FORM</h1>
+               </i>
+
+          </div>
+          <div class="main-content">
+               <div id="intro-img"></div>
+               <hr>
+               <p>NAME</p>
+
+               <label>FIRST NAME: <input type="select" name="firstname"></label> <BR></BR>
+               <label>LAST NAME: <input type="text" name="lastname"></label>
+
+               <BR></BR>
+
+               <fieldset>
+                    <legend>YOU ARE AN</legend>
+                    <label><input type="radio" name="ACM" value="YOU ARE AN"> FE</label>
+                    <label><input type="radio" name="ACM" value="YOU ARE AN"> SE</label>
+                    <label><input type="radio" name="ACM" value="YOU ARE AN"> TE</label>
+               </fieldset> <br>
+
+               <fieldset>
+
+
+                    <fieldset>
+                         <legend>YOUR MEMBERSHIP STATUS</legend>
+                         <label><input type="radio" name="YOUR MEMBERSHIP STATUS" value="CORE">
+                              CORE</label>
+                         <label><input type="radio" name="YOUR MEMBERSHIP STATUS" value="NON-CORE">
+                              NON-CORE</label>
+                         <label><input type="radio" name="YOUR MEMBERSHIP STATUS" value="MEMBER">
+                              MEMBER</label>
+                    </fieldset>
+                    <BR></BR>
+
+
+                    <fieldset>
+                         <legend>DO YOU FIND VARIOUS WORKSHOPS CONDUCTED USEFUL</legend>
+                         <label><input type="radio" name="DO YOU FIND VARIOUS WORKSHOPS CONDUCTED USEFUL" value="YES">
+                              YES</label>
+                         <label><input type="radio" name="DO YOU FIND VARIOUS WORKSHOPS CONDUCTED USEFUL" value="NO">
+                              NO</label><br><br>
+                         <label>DESCRIBE WHY: <input type="text" name="DESCRIBE WHY"></label>
+                    </fieldset>
+                    <BR></BR>
+                    <fieldset>
+                         <legend>DID YOU SUGGEST YOUR FRIENDS STUDYING IN COLLEGE ABOUT THIS</legend>
+                         <label><input type="radio" name="SUGGESTION" value="YES">
+                              YES</label>
+                         <label><input type="radio" name="SUGGESTION" value="NO">
+                              NO</label>
+                    </fieldset>
+
+                    <br>
+                    ---------------------------------------------------------------------------------------------------------------------------------------------------------
+                    <section class="section section-small">
+                         <h2 class="section-header">KNOW US</h2>
+                         <p class="mb-0">
+                              Reach us via
+                              <a href="mailto:souravmalviya08@gmail.com" class="contact-link">Email</a>
+                              Thank you.
+                         </p>
+
+                    </section>
+          </div>
+
+          <input type="SUBMIT" value="Submit">
+          <input type="RESET" value="Reset">
+          </form>
+
+</body>
+
+</html>

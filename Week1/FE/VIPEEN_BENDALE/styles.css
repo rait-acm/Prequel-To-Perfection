@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+    display:flexbox;
+    height: 135vh;
+    line-height: 1.4;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    background: url("bg1.jpg");
+}
+
+h1 {
+    background-color: rgba(236, 246, 255, 0.705);
+    border: 10px outset rgba(240, 0, 0, 0.589);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    background-color: rgba(216, 247, 247, 0.678);
+    border-bottom: 5px inset indianred;
+    border-top: 5px outset rgba(219, 84, 84, 0.822);
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 19px;
+    text-align: center;
+}
+
+form{
+    align-items: center;
+    background:url(form-bg2.jpg);
+    padding: 2.5rem 2.5rem;
+    width: 550px;
+    margin: auto;
+    border-radius: 30px; 
+}
+
+
+
+input[type=submit] {
+    font-size: medium;
+    width: 20%;
+    background-color: #4785ad;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #3f8c88;
+}
+
+input[type=text] {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    width: 65%;
+    height: 25px;
+}
+
+input[type=email] {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    width: 65%;
+    height: 25px;
+}
+
+input[type=number] {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    width: 65%;
+    height: 25px;
+}
+select{
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    width: 50%;
+    height: 25px;
+}
+
+textarea{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+
+  
