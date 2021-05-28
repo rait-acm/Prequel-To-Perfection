@@ -1,98 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap");
+:root {
+  --bg: #576c80;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto Mono";
+}
 body {
-  background-color: #ec3d30;
-  color: #160808;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  padding: 15px;
-}
-
-.container {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main-content { background-color: #f0b5a6; }
- 
-#intro-img {
-  background-image: url(/shadi.jpg);
-  background-position: center;
-  background-size: cover;
-  min-height: 400px;
-}
-
-
-.text-white { color: rgba(245, 248, 242, 0.925); }
-
-.page-header-container { text-align: center; }
-
-.page-header {
-  display: inline-block;
-  vertical-align: baseline;
-  margin-top: 20px;
-  margin-bottom: 35px;
-  font-size: 2.1 rem;
-  font-weight: 800;
-}
-
-.section {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
-}
-
-.section-small {
-  max-width: 490px;
-  margin-left: 90;
-  margin-right: 230;
-  padding-top: 0;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-.mb-0 { margin-bottom: 0; }
-img { max-width: 100%; }
-figure { margin: 0; }
-figcaption { text-align: center; }
-
-figcaption span {
-  display: block;
-  color: #757575;
-  font-size: 18px;
-}
-
-hr {
-  width: 70%;
-  border: 0.5px solid rgb(24, 18, 18);
-}
-
-
-.contact-link {
-  color: #d8d7d7;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-a { transition: all 0.3s ease; }
-.contact-link:hover { color: #000000; }
-
-.footer-text {
-  font-size: 0.9rem;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  background-color: var(--bg);
+}
+.container {
+  width: 100vw;
+  height: 400px;
+  max-width: 600px;
+  background-color: rgb(248, 204, 204);
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 5px;
+}
+body.over .container {
+  cursor: no-drop;
+}
+body.over .container .item {
+  pointer-events: none;
+}
+.item {
+  width: 100%;
+  /* height: calc(100vw/100*30); */
+  height: 100%;
+  background-color: var(--bg);
+}
+.playerTitle {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+}
+.player1 {
+  background-image: url(https://i.ibb.co/d6LQqt1/Frame.png);
+  
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+.computer {
+   background-image:url("https://img.icons8.com/plasticine/100/000000/filled-circle.png") ; 
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
 }
 
-.footer-link {
-  color: #fff;
-  text-decoration: none;
+.rematch {
+  cursor: pointer;
+  padding: 20px 50px;
+  display: inline-block;
+  background-color: rgb(58, 96, 133);
+  color: white;
+  font-size: 24px;
+  margin-bottom: 30px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
-
-.footer-link:hover { color: #c5ced8; } 
- 
-
-
+body.over .rematch {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+}
