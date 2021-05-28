@@ -1,0 +1,31 @@
+<script>
+function randomColor(){
+    var color = "#";
+    var randomHex = "123456ABCDEF";  
+    for(var i = 0; i<6;i++){
+        color+= randomHex[Math.floor(Math.random()*16)]
+    }
+   
+    return color;
+}
+
+var mytimer ;
+
+function setColor(){
+    
+    $("body").css("background-color", randomColor);
+}
+
+var mytimer = setInterval(setColor, .8000);
+</script>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Background Color Generator</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	</head>
+	<body>
+	  
+	</body>
+</html>
