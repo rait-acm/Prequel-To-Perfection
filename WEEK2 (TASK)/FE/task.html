@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password validation form</title>
+</head>
+<body>
+    <script>
+function myfun() {
+var a = document.getElementById("passwords").value;
+var b = document.getElementById("Passwords").value;
+
+
+if(a==""){
+document.getElementById("messages").innerHTML="**please fill the password**";
+return false;
+}
+if(a.length < 5 ) {
+    document.getElementById("messages").innerHTML="**password must be greater than 5 characters**";
+    return false;
+ }
+ if(a.length >= 15  ) {
+    document.getElementById("messages").innerHTML="**password must be smaller than 15 characters**";
+    return false;
+ }
+ if ( a!=b ){
+    document.getElementById("messages").innerHTML="**password does not match**";
+    return false;
+ }
+
+ if ( a==b ){
+    document.getElementById("messages").innerHTML="**new password successfully set**";
+    return false;
+ }
+
+}
+
+    </script>
+    <h1 style="text-align: center;"> Password validation form</h1>
+   <form style="text-align: center;" onsubmit="return myfun()">
+      New Password :<input type="password" id="passwords" value="">
+       <span id="messages" style="color:blue"> </span><br></br>
+     Confirm Password :<input type="password" id="Passwords" value="">
+     <span id="messages"  style="color:blue"> </span><br></br>
+     <input type="submit" value="Submit" >
+   </form>
+</body>
+</html>
