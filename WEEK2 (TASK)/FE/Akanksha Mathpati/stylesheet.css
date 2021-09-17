@@ -1,0 +1,18 @@
+body{
+    background-color:rgb(184, 179, 117);
+}
+
+div{
+    box-sizing: border-box;
+    width:100%;
+    float:left;
+    align-content: center;
+    align-items: center;
+    border: 150px solid black;
+    
+}
+
+form{
+    margin:0 auto;
+    width: 800px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "script.js"></script>
+        <link rel ="stylesheet" href="stylesheet.css">   
+    </head>
+
+    <body>
+        <h1 style="text-align:center;">REGISTERATION FORM</h1>
+        <form name="RegForm" action="/submit.php"
+              onsubmit="return Validateform()" method="post">
+            <p>Name: <input type="text"
+                            size="65" name="Name"/> </p>
+            <br />
+            <p>Address: <input type="text"
+                               size= "65" name="Address"/></p>
+            <br />
+            <p>E-mail Address: <input type="text"
+                                     size="65" name="EMail"/></p>
+            <br />
+            <p>Contact No.: <input type="text"
+                                  size ="65" name="Telephone"/></p>
+            <br />
+            
+            <p>
+                SELECT COMMITTEES<br>
+                <input type="checkbox" id="First Comt." name="Committee 1" value="RAIT ACM">
+                <label for = "First Comt.">RAIT ACM</label><br>
+                <input type="checkbox" id="Sec Comt." name="Committee 2" value="SUC">
+                <label for = "Sec Comt.">SUC</label><br>
+                <input type="checkbox" id="Third Comt." name="Committee 3" value="DSC">
+                <label for = "Third Comt.">DSC</label><br>
+            </p>
+            <br />
+            <br />
+            <p>
+                <input type="submit"
+                       value="send" name="Submit"/>
+                <input type="reset"
+                       value="Reset" name="Reset"/>
+            </p>
+        </form>
+    </body>
+</html>
