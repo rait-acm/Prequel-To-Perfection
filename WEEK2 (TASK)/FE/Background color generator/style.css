@@ -1,0 +1,44 @@
+body{
+background-image: linear-gradient(90deg, rgba(6,3,66,1) 0%, rgba(154,43,122,1) 100%, rgba(0,212,255,1) 100%);;
+}
+
+    #container {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 60px;
+    background-color: blue;
+    outline: 6px solid hsl(313, 78%, 16%);
+    outline-offset: 5px;
+    outline-style: inset;
+    display: grid;
+    place-items: center;
+}
+
+#button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;  
+    background-color: hsl(0, 0%, 0%); 
+color: hsl(306, 100%, 98%);
+border-radius: 5px;
+border-style: solid;
+border-color: #fff3fe;
+}
+
+#container p {
+    color: ivory;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #fdc5fd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
