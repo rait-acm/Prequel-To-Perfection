@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    margin-top: -33px;
+    font-size: 33px;
+    background: radial-gradient(rgb(0, 230, 0), rgb(0, 204, 0), rgb(0, 153, 0));
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+table {
+    margin: auto;
+}
+
+input[type=text] {
+    font-size: 34px;
+    border-radius: 20px;
+    height: 64px;
+}
+
+input[type=button] {
+    font-size: 45px;
+    width: 102px;
+    height: 75px;
+    border-radius: 14px;
+    background: linear-gradient(rgb(230, 255, 247), rgb(179, 255, 204), rgb(51, 255, 214));
+}
+
+.bg {
+    background: radial-gradient(rgb(153, 235, 255), rgb(0, 204, 255), rgb(0, 153, 204));
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+}
