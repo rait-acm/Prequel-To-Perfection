@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Calculator</title>
+    <script>
+
+        function dis(val) {
+            document.getElementById("result").value += val
+        }
+
+
+        function solve() {
+            let x = document.getElementById("result").value
+            let y = eval(x)
+            document.getElementById("result").value = y
+        }
+
+
+        function clr() {
+            document.getElementById("result").value = ""
+        }
+    </script>
+    <style>
+        input {
+            outline: 0;
+            position: relative;
+            left: 5px;
+            top: 5px;
+            border: 0;
+            color: #495069;
+            background-color: 4px;
+            width: 60px;
+            height: 50px;
+            float: left;
+            margin: 5px;
+            font-size: 20px;
+            box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .operator {
+            background-color: #f1ff92;
+            position: relative;
+        }
+
+        table {
+            margin: auto;
+            background-color: lightcoral;
+            width: 28vw;
+            height: 58vh;
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        #clear {
+            float: left;
+            position: relative;
+            display: block;
+            background-color: #ff9fa8;
+            margin-bottom: 15px;
+        }
+
+        #result {
+            width: 270px;
+            font-size: 26px;
+            text-align: center;
+            background-color: #f1faeb;
+            float: left;
+        }
+
+        #result:hover {
+            width: 270px;
+            font-size: 26px;
+            text-align: center;
+            box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+            background-color: #f1faeb;
+        }
+
+        input:hover {
+            border: 0 solid #000;
+            color: #495069;
+            background-color: #8f5fda;
+            border-radius: 4px;
+            width: 60px;
+            height: 50px;
+            float: left;
+            margin: 5px;
+            font-size: 20px;
+            box-shadow: 0 4px #644294;
+        }
+
+        .operator:hover {
+            background-color: #e7f56b;
+            box-shadow: 0 4px #b7c259;
+        }
+
+
+        #clear:hover {
+            float: left;
+            display: block;
+            background-color: #f297a0;
+            margin-bottom: 15px;
+            box-shadow: 0 4px #cc7f86;
+        }
+
+        main {
+            background-image: url(project.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            background-color: #45a1ff;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Other
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <main>
+        <center>
+            <h1>calculator</h1>
+        </center>
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" name="input" size="16" id="result"></td>
+
+                <td><input type="button" value="c" id="clear" onclick="clr()" /> </td>
+            </tr>
+            <tr>
+
+                <td><input type="button" value="1" onclick="dis('1')" /> </td>
+                <td><input type="button" value="2" onclick="dis('2')" /> </td>
+                <td><input type="button" value="3" onclick="dis('3')" /> </td>
+                <td><input type="button" class="operator" value="/" onclick="dis('/')" /> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="dis('4')" /> </td>
+                <td><input type="button" value="5" onclick="dis('5')" /> </td>
+                <td><input type="button" value="6" onclick="dis('6')" /> </td>
+                <td><input type="button" class="operator" value="-" onclick="dis('-')" /> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="dis('7')" /> </td>
+                <td><input type="button" value="8" onclick="dis('8')" /> </td>
+                <td><input type="button" value="9" onclick="dis('9')" /> </td>
+                <td><input type="button" class="operator" value="+" onclick="dis('+')" /> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." onclick="dis('.')" /> </td>
+                <td><input type="button" value="0" onclick="dis('0')" /> </td>
+
+                <td><input type="button" value="=" onclick="solve()" /> </td>
+                <td><input type="button" class="operator" value="*" onclick="dis('*')" /> </td>
+            </tr>
+        </table>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+
+
+    </main>
+    <footer>
+        <p>© 2021 All rights reserved</p>
+    </footer>
+</body>
+
+</html>
